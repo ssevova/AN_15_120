@@ -1,0 +1,92 @@
+\documentclass{cmspaper}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage[pdfborder=0 0 0,
+            colorlinks,
+            urlcolor = blue,
+            linkcolor = black,
+            citecolor = black,
+            menucolor = black,]
+           {hyperref}
+%% \usepackage[colorlinks]{hyperref}
+\usepackage{url}
+\usepackage{lineno}
+\usepackage[toc,page]{appendix}
+\renewcommand{\appendixname}{Appendix}
+%% \renewcommand{\appendixtocname}{List of appendices}
+
+\input{commands}
+
+\setcounter{topnumber}{1}
+\setcounter{bottomnumber}{1}
+
+%===================================================================================================
+\begin{document}
+\begin{titlepage}
+
+  \analysisnote{2015/120}
+
+  \date{\today}
+
+  \title{Search for Dark Matter produced in association with top quark pairs}
+
+  \input{authors}
+
+  \begin{abstract}
+    We present a search for dark matter produced in association with top quark pairs.
+  \end{abstract} 
+
+\end{titlepage}
+
+\tableofcontents
+%\listoftables
+%\listoffigures
+\newpage 
+\linenumbers
+
+%===================================================================================================
+\input{introduction}
+%\clearpage
+ 
+\input{datasets}
+\clearpage
+
+\input{objects}
+\clearpage
+
+\input{selection}
+%\clearpage
+
+\input{background}
+\clearpage
+
+\input{systematics}
+\clearpage
+
+\input{results}
+\clearpage
+
+\input{conclusion}
+\clearpage
+
+%===================================================================================================
+\input{biblio}
+\clearpage
+%===================================================================================================
+\appendix
+\input{appendix_dphijetmet}
+\clearpage
+\input{appendix_acceptance}
+\clearpage
+\input{appendix_8Tev}
+\clearpage
+\input{appendix_TopTagger13TeVMore}
+\clearpage
+\input{appendix_CRclosure}
+\clearpage
+
+\end{document}

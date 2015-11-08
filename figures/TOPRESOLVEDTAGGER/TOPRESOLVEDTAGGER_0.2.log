@@ -1,0 +1,1540 @@
+
+ <> Processing probes file: SingleMu_2012-22Jan2013_allhadrbits_TnP.root
+ outdir: TOPRESOLVEDTAGGER_0.2
+ outdir: TOPRESOLVEDTAGGER_0.2
+ temfname1, temfname2, temfname3: Summer12_TTJets_SemiLeptMGDecays_allhadrbits_Signal_TnP.root Summer12_TTJets_SemiLeptMGDecays_allhadrbits_Bkg1_TnP.root Summer12_TTJets_SemiLeptMGDecays_allhadrbits_Bkg2_TnP.root
+topmvacut 0.2 argv[6] 0.2
+maketemplates 1 argv[7] 1
+
+
+ Use: MakeCanvas(name,title)
+ InitSubPad(pad,nPad)
+ InitHist(hist,xTitle,yTitle,color)
+
+   [CEffZFitter] Initializing... 
+   [CEffZFitter] Creating binned templates... Done!
+   [CEffZFitter] Creating binned templates... Done!
+   [CEffZFitter] Creating binned templates... Done!
+   [CEffZFitter] Computing efficiencies...
+ ...performFit...
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+passtree entries 6024
+failtree entries 6582
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataPass): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(dataFail): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+qui
+looking for histo h_pass_signal in file TOPRESOLVEDTAGGER_0.2/binnedTemplates_signal.root
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sigModPass_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkg1ModPass_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkg2ModPass_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+qui3
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(sigModFail_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkg1ModFail_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(bkg2ModFail_rdh): fit range of variable m expanded to nearest bin boundaries: [0,800] --> [0,800]
+**********Fail**********
+h_signal, h_bkg1, h_bkg2 169.054 2906.83 3433.24
+**********Pass********
+h_signal, h_bkg1, h_bkg2 1782.66 2865.38 1440.88
+*********TOT**********
+h_signal, h_bkg1, h_bkg2 1951.71 5772.22 4874.13
+*********TOTMC**********
+Pass, Fail 6088.93 6509.13
+*******Data*******
+Pass, Fail, Tot 6024 6582 12606
+**************
+NsigMax, Nbkg1Max, Nbkg2Max 12606 12606  12606
+plotting data and model prefit via TH1
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Passsample_beforefit_mt.C has been generated
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Failsample_beforefit_mt.C has been generated
+plotting data and model prefit
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (sigModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (bkg1ModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (bkg2ModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Passsample_beforefit.C has been generated
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (sigModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (bkg1ModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (bkg2ModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Failsample_beforefit.C has been generated
+before fit
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state Pass (1000000 dataset entries)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state Fail (1000000 dataset entries)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: starting remote server process #0
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE0) successfully forked server process 23607
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: starting remote server process #1
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE1) successfully forked server process 23608
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: starting remote server process #2
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE2) successfully forked server process 23609
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelPass) WARNING: sum of coefficients is zero 0
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModPass,bkg1ModPass,bkg2ModPass)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModPass,bkg1ModPass,bkg2ModPass)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModPass,bkg1ModPass,bkg2ModPass)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModPass,bkg1ModPass,bkg2ModPass)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(modelFail) WARNING: sum of coefficients is zero 0
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModFail,bkg1ModFail,bkg2ModFail)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModFail,bkg1ModFail,bkg2ModFail)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModFail,bkg1ModFail,bkg2ModFail)
+ **********
+ **   13 **MIGRAD        3000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE1 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE2 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE3 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE4 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE5 IS AT ITS LOWER ALLOWED LIMIT.
+ MINUIT WARNING IN MIGrad    
+ ============== VARIABLE6 IS AT ITS LOWER ALLOWED LIMIT.
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigModFail,bkg1ModFail,bkg2ModFail)
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=48955.5 FROM MIGRAD    STATUS=INITIATE      342 CALLS         343 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  FR1          9.89363e-02   1.00000e-01   0.00000e+00  -8.93060e+03
+   2  FR2          5.68035e-01   1.00000e-01   0.00000e+00  -8.96238e+02
+   3  Nbkg1        3.09161e+01   1.26060e+03   8.22095e-02  -1.99685e+05
+   4  Nbkg2        1.89916e+00   1.26060e+03   0.00000e+00  -1.19462e+05
+   5  Nsig         1.38566e+00   1.26060e+03   0.00000e+00  -1.14861e+05
+   6  eff          6.13699e-01   1.00000e-01   0.00000e+00  -7.33106e+02
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -7.0834e-02  4.9496e-02  3.1429e-01  4.4918e-01  1.7016e+00  3.5563e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.074390 TO DIAGONAL.
+ FCN=-16951.9 FROM HESSE     STATUS=NOT POSDEF     44 CALLS        1478 TOTAL
+                     EDM=43.6767    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  FR1          8.61320e-01   2.71161e-01   6.46207e-03  -2.31655e+01
+   2  FR2          2.57102e-01   5.28656e-02   1.38233e-03   6.64841e+01
+   3  Nbkg1        2.47235e+03   4.91873e+02   1.57620e-03   3.29221e+01
+   4  Nbkg2        8.05022e+03   3.78707e+02   1.32426e-01  -1.20164e+01
+   5  Nsig         2.10667e+03   1.15791e+02   1.27316e-01  -5.06280e+01
+   6  eff          8.98715e-01   5.55356e-02   6.06257e-03  -3.68083e+00
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MIGRAD TERMINATED WITHOUT CONVERGENCE.
+ FCN=-16967.3 FROM MIGRAD    STATUS=FAILED       2236 CALLS        2237 TOTAL
+                     EDM=0.0550278    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  FR1          4.92218e-01   5.24494e-02   0.00000e+00  -1.16011e+01
+   2  FR2          3.10516e-01   3.56707e-02   0.00000e+00   1.29753e+01
+   3  Nbkg1        4.77064e+03   4.58982e+02  -0.00000e+00   9.08360e+00
+   4  Nbkg2        6.03482e+03   4.38916e+02   0.00000e+00   3.04965e+00
+   5  Nsig         1.82305e+03   1.01067e+02  -0.00000e+00  -1.47854e+01
+   6  eff          1.00000e+00   1.22049e-02   0.00000e+00** at limit **
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  2.761e-03  1.733e-03  7.504e-01 -1.973e+00 -2.563e+00 -1.421e-07 
+  1.733e-03  1.275e-03 -3.605e+00  3.198e+00 -1.090e+00 -1.443e-07 
+  7.504e-01 -3.605e+00  2.111e+05 -1.920e+05  5.078e+03 -5.767e-04 
+ -1.973e+00  3.198e+00 -1.920e+05  1.930e+05  2.771e+03 -2.951e-04 
+ -2.563e+00 -1.090e+00  5.078e+03  2.771e+03  1.022e+04 -5.149e-04 
+ -1.421e-07 -1.443e-07 -5.767e-04 -2.951e-04 -5.149e-04  8.848e-10 
+ERR MATRIX NOT POS-DEF
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.98150   1.000  0.924  0.031 -0.085 -0.483 -0.091
+        2  0.97909   0.924  1.000 -0.220  0.204 -0.302 -0.136
+        3  0.96753   0.031 -0.220  1.000 -0.951  0.109 -0.042
+        4  0.96919  -0.085  0.204 -0.951  1.000  0.062 -0.023
+        5  0.79913  -0.483 -0.302  0.109  0.062  1.000 -0.171
+        6  0.28671  -0.091 -0.136 -0.042 -0.023 -0.171  1.000
+ ERR MATRIX NOT POS-DEF
+ **********
+ **   18 **HESSE        3000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-16967.3 FROM HESSE     STATUS=OK             44 CALLS        2281 TOTAL
+                     EDM=0.35049    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  FR1          4.92218e-01   8.12449e-02   2.08361e-03   3.15716e+00
+   2  FR2          3.10516e-01   6.45770e-02   1.76450e-03   5.89450e+00
+   3  Nbkg1        4.77064e+03   3.56812e+02   1.62633e-03  -2.45577e-01
+   4  Nbkg2        6.03482e+03   3.15721e+02   1.32426e-01   2.77717e+05
+   5  Nsig         1.82305e+03   1.17458e+02   1.27316e-01   2.67002e+05
+   6  eff          1.00000e+00   2.45354e-02   2.82205e-02   7.85371e+00
+                                 WARNING -   - ABOVE PARAMETER IS AT LIMIT.
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  6    ERR DEF=0.5
+  6.660e-03  5.170e-03 -1.660e+01  1.275e+01 -4.858e+00 -1.184e-07 
+  5.170e-03  4.198e-03 -1.427e+01  1.194e+01 -3.122e+00 -7.231e-08 
+ -1.660e+01 -1.427e+01  1.275e+05 -1.024e+05  2.223e+04  6.033e-05 
+  1.275e+01  1.194e+01 -1.024e+05  9.976e+04 -1.062e+04 -1.131e-04 
+ -4.858e+00 -3.122e+00  2.223e+04 -1.062e+04  1.380e+04 -1.847e-05 
+ -1.184e-07 -7.231e-08  6.033e-05 -1.131e-04 -1.847e-05  1.786e-09 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6
+        1  0.98988   1.000  0.978 -0.570  0.494 -0.507 -0.034
+        2  0.99014   0.978  1.000 -0.617  0.584 -0.410 -0.026
+        3  0.95086  -0.570 -0.617  1.000 -0.908  0.530  0.004
+        4  0.94242   0.494  0.584 -0.908  1.000 -0.286 -0.008
+        5  0.81932  -0.507 -0.410  0.530 -0.286  1.000 -0.004
+        6  0.07463  -0.034 -0.026  0.004 -0.008 -0.004  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE0) server process terminating
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE1) server process terminating
+[#1] INFO:Minization -- RooRealMPFE::initialize(nll_totalPdf_dataCombined_2a28590_MPFE2) server process terminating
+after fit
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (sigModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (bkg1ModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) directly selected PDF components: (bkg2ModPass)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelPass) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (sigModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (bkg1ModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) directly selected PDF components: (bkg2ModFail)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(modelFail) indirectly selected PDF components: ()
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Passsample_afterfit.C has been generated
+Info in <TCanvas::SaveSource>: C++ Macro file: TOPRESOLVEDTAGGER_0.2/TemplatesandData_Failsample_afterfit.C has been generated
+++++++++++Fit++++++++++
+Eff 1 - 0.0245354 + 0.0245354
+FR1 0.492218 - 0.0812449 + 0.0812449
+FR2 0.310516 - 0.064577 + 0.064577
+++++++++++Expect++++++++++
+Eff 0.913382
+FR1 0.49641
+FR2 0.295619
+++++++++++Fit (extras)++++++++++
+#chi^{2}/dof (Pass)75.9743
+#chi^{2}/dof (Fail)24.4509
+*********Fitted Pass**********
+Yields (data) 6024
+Nsig 1823.05 +/- 119.486
+Nbkg1 2348.2 +/- 321.739
+Nbkg2 1873.91 +/- 453.97
+FracNsig, FracNbkg1, FracNbkg2 0.302631 0.389807 0.311074
+*********EXPECTED FRACMC Pass**********
+Signal, Bkg1, Bkg2 0.295926 0.475662 0.23919
+*********Fitted Fail**********
+Yields (data) 6582
+Nsig 3.29047e-05 +/- 22.3647
+Nbkg1 2422.44 +/- 512.894
+Nbkg2 4160.92 +/- 316.58
+FracNsig, FracNbkg1, FracNbkg2 4.99919e-09 0.36804 0.632166
+*********EXPECTED FRACMC Fail**********
+Signal, Bkg1, Bkg2 0.0256842 0.441633 0.521611
+eff, errl, errh0.0245354 0.0245354 0.0245354
+ <> Output saved in TOPRESOLVEDTAGGER_0.2

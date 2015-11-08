@@ -1,0 +1,46 @@
+++++++++++Fit++++++++++
+Eff 0.972526 - 0.0135442 + 0.0135442
+FR1 0.948201 - 0.045109 + 0.045109
+FR2 0.889658 - 0.0262651 + 0.0262651
+++++++++++Expect++++++++++
+Eff 0.998293
+FR1 0.951221
+FR2 0.894005
+++++++++++Fit (extras)++++++++++
+#chi^{2}/dof (Pass)33.6087
+#chi^{2}/dof (Fail)1.22523
+*********Fitted Pass**********
+Yields (data) 4702
+Nsig 857.746 +/- 75.1202
+Nbkg1 1470.95 +/- 329.971
+Nbkg2 2373.33 +/- 255.341
+FracNsig, FracNbkg1, FracNbkg2 0.182421 0.312835 0.50475
+*********EXPECTED FRACMC Pass**********
+Signal, Bkg1, Bkg2 0.160391 0.505141 0.362652
+*********Fitted Fail**********
+Yields (data) 399
+Nsig 24.2317 +/- 12.1017
+Nbkg1 80.3561 +/- 71.6517
+Nbkg2 294.358 +/- 83.4261
+FracNsig, FracNbkg1, FracNbkg2 0.060731 0.201394 0.73774
+*********EXPECTED FRACMC Fail**********
+Signal, Bkg1, Bkg2 0.0032322 0.305264 0.506694
+DONE WITH PRINTING MY RESULTS
+
+
+NOW DUMPING fit results from fitResult->printStream
+
+  RooFitResult: minimized FCN value: -3216.12, estimated distance to minimum: 1.56026e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MIGRAD=0 HESSE=0 
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+                   FR1    0.0000e+00    9.4820e-01 +/-  4.51e-02  <none>
+                   FR2    0.0000e+00    8.8966e-01 +/-  2.63e-02  <none>
+                 Nbkg1    0.0000e+00    1.5513e+03 +/-  3.38e+02  <none>
+                 Nbkg2    0.0000e+00    2.6677e+03 +/-  2.94e+02  <none>
+                  Nsig    0.0000e+00    8.8198e+02 +/-  7.61e+01  <none>
+                   eff    0.0000e+00    9.7253e-01 +/-  1.35e-02  <none>
+
+

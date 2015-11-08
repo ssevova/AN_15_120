@@ -1,0 +1,44 @@
+\subsection{Photons}
+\label{subsec:obj_photon}
+
+Photons are selected to obtain a control sample to model the $\Z\To\Nu\Nu$ background. A cut-based selection at the ``Medium'' WP from the ``V2'' prescriptions derived from Phys14 samples is used; the variables and cuts are described in Table~\ref{tab:photon_id}. Isolation quantities are computed from PF-candidates within a cone of $R=0.3$ around the photon. The pileup contribution to each type of isolation quantity is estimated by multiplying the effective area, $A_{\mbox{\scriptsize{eff}}}$, with the energy density, $\rho$, where $\rho$ is assigned to the quantity called, ``fixedGridRhoFastjetAll''. The effective areas are $\eta$-dependent and are listed in Table~\ref{tab:effarea}. For each type of isolation, the pileup corrected isolation is,
+\begin{equation}
+  I'_{k} = \max\left(I_k - A_{\mbox{\scriptsize{eff}},k}\cdot\rho, 0\right),
+\end{equation}
+where the $k$ index denotes $h^+$, $h^0$, or $\gamma$.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+  Variable                              & Barrel                                            & Endcap \\
+\hline
+  single tower $H/E <$                  & $0.012$                                           & $0.023$  \\
+  $\sigma_{i\eta i\eta} <$              & $0.0100$                                          & $0.0267$ \\
+  charged hadron isolation (\GeV) $<$   & $1.79$                                            & $1.09$ \\
+  neutral hadron isolation (\GeV) $<$   & $0.16 + \exp\left(0.0028\cdot\pt + 0.5408\right)$ & $4.31+0.0172\cdot\pt$ \\
+  photon isolation (\GeV) $<$           & $1.90+0.0014\cdot\pt$                             & $1.90+0.0091\cdot\pt$ \\ 
+\hline
+\end{tabular}
+\caption{Variables and thresholds that define ``Medium'' photons in the Phys14 ``V2'' cut-based selections. A photon is in the barrel if it has supercluster $|\eta|<1.479$, otherwise it is in the endcap.}
+\label{tab:photon_id}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|rcl|c|c|c|}
+\hline
+                          &&& $h^+$    & $h^0$    & $\gamma$ \\
+\hline
+ $0     \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 1$     & $0.0234$ & $0.0053$ & $0.0780$ \\
+ $1     \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 1.479$ & $0.0189$ & $0.0103$ & $0.0629$ \\
+ $1.479 \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 2$     & $0.0171$ & $0.0057$ & $0.0264$ \\
+ $2     \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 2.2$   & $0.0129$ & $0.0070$ & $0.0462$ \\
+ $2.2   \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 2.3$   & $0.0110$ & $0.0152$ & $0.0740$ \\
+ $2.4   \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ & $< 2.4$   & $0.0074$ & $0.0232$ & $0.0924$ \\
+ $2.4   \leq$ & $|\eta_{\mbox{\scriptsize{SC}}}|$ &           & $0.0035$ & $0.1709$ & $0.1484$ \\
+\hline
+\end{tabular}
+\caption{Effective areas for pileup mitigation in the Phys14 ``V2'' cut-based isolation for photons.}
+\label{tab:effarea}
+\end{table}

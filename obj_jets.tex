@@ -1,0 +1,30 @@
+\subsection{Jets}
+\label{subsec:obj_jets}
+
+Jets are reconstructed by clustering PF-candidates. The jet collection used in this analysis are clustered with the anti-$k_T$ algorithm with size parameter, $R=0.4$. This jet collection employs charged hadron subtraction (CHS) to reduce pileup contamination. The anti-$k_T$ collection will be denoted as \emph{AK4CHS}. Jets must pass the ``Loose PF Jet ID'' requirements listed in Table~\ref{tab:jetid}.  %Two jet collections are used in this analysis: jets from clustering with the anti-$k_T$ algorithm with size parameter, $R=0.4$, and jets from clustering with the Cambridge-Aachen (CA) algorithm with $R=1.5$. The collection of $R=1.5$ jets are used to tag boosted, hadronically decaying tops by applying jet substructure techniques. Both jet collections employ charged hadron subtraction (CHS) to reduce pileup contamination. The anti-$k_T$ and CA jet collections will be denoted as \emph{AK4CHS} and \emph{CA15CHS} respectively. Jets from either collection must pass the ``Loose PF Jet ID'' requirements listed in Table~\ref{tab:jetid}.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+  Variable                     &  Threshold \\
+\hline
+  Neutral Hadron Fraction $<$  & $0.99$     \\
+  Neutral EM Fraction $<$      & $0.99$     \\
+  Number of Constituents $>$   & $1$        \\
+  %Muon Fraction $<$            & $0.8$      \\
+\hline
+  \multicolumn{2}{|c|}{\emph{Additional cuts for $|\eta|<2.4$}} \\
+\hline
+  Charged Hadron Fraction $>$  & $0$        \\
+  Charged Multiplicity $>$     & $0$        \\
+  Charged EM Fraction $<$      & $0.99$     \\
+\hline
+\end{tabular}
+\caption{Variables and thresholds that define the ``Loose PF Jet ID''.}
+\label{tab:jetid}
+\end{table}
+
+Standard jet energy corrections (JEC), corresponding to the official Run 2 V5 global tag, are applied. %In the case of CA15CHS jets, the JEC for anti-$k_T$ $R=0.8$ jets with CHS are used because this is the largest size parameter with corrections available.
+
+To tag jets that originate from $\Bot$-quarks, the \emph{CSVv2+IVF} discriminator is used with the recommended medium working point. An AK4CHS jet is considered a $\Bot$-jet if $\mbox{CSVv2+IVF} > 0.814$.

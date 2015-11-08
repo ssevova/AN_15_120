@@ -1,0 +1,14 @@
+\section{Background Estimation}
+\label{sec:background}
+
+The general approach for background estimation is to derive data/MC scale factor corrections from background enriched control regions (CR) and apply these to the MC predictions for the signal region (SR). Formally, for a particular background process,
+\begin{equation}
+  N_{\mbox{\scriptsize{SR}}}^{\mbox{\scriptsize{predict}}} = N_{\mbox{\scriptsize{SR}}}^{\mbox{\scriptsize{MC}}}
+\left(\frac{N_{\mbox{\scriptsize{CR}}}^{\mbox{\scriptsize{data}}}}{N_{\mbox{\scriptsize{CR}}}^{\mbox{\scriptsize{MC}}}}\right),
+\end{equation}
+where $N_{\mbox{\scriptsize{SR}}}^{\mbox{\scriptsize{predict}}}$ is the signal region prediction for the background of interest, $N_{\mbox{\scriptsize{SR}}}^{\mbox{\scriptsize{MC}}}$ is the MC yield in the signal region, and $N_{\mbox{\scriptsize{CR}}}^{\mbox{\scriptsize{data}}}$ and $N_{\mbox{\scriptsize{CR}}}^{\mbox{\scriptsize{MC}}}$ are the yields in the control region for data and MC respectively. For a cut-and-count analysis, the formula states the MC yields in the SR are corrected by the ratio of data-to-MC yields in the CR. For a shape analysis, the formula implies bin-by-bin correction factors in the variable used for signal extraction (i.e. $\met$).
+
+To handle signal contamination in the control regions and as well as backgrounds that contribute substantially to multiple control regions, the signal extraction and scale factor derivation will be performed simultaneously across all signal and control regions. (This is not yet done for this note.)
+
+\input{bkg_hadronic}
+\input{bkg_semilept}

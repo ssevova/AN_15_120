@@ -1,0 +1,53 @@
+\subsection{Top-tagged Selection: Hadronic channel}
+\label{subsec:sel_toptag_hadronic}
+
+In the hadronic channel, there can be up to two resolved \iffalse boosted \fi top tags in the event. \iffalse This naturally leads to definitions for three signal region categories: two top tags, one top tags, and zero top tags. \fi Events are required to pass the same trigger as in the inclusive selection (Sec.~\ref{subsec:sel_incl_hadronic}) and have $\met>250\:\GeV$,  $\min_{i=1,\ldots,6}\Delta\phi\left(j_i,\met\right)>0.6$, and two jet triplet combinations with resolved top MVA score $> 0.1$. In order to have two jet triplet combinations, we require at least six AK4CHS jets in order to obtain two hadronic top candidates.
+
+%Then, the selections for the categories are as follows:
+%\begin{enumerate}
+%\item \emph{Boosted, Boosted}
+  %\begin{itemize}
+ % \item the two leading CA15CHS jets pass boosted top tagging requirements,
+ % \item at least one AK4CHS jet is $\Bot$-tagged,
+  %\item $\Delta\Phi_{i=1,\ldots,6}\left(j_i,\,\met\right)>0.6$.
+  %\end{itemize}
+%\item \emph{Boosted, Resolved}
+%  \begin{itemize}
+%  \item only one of the two leading CA15CHS jets pass boosted top tagging requirements,
+  %\item at least $4$ AK4CHS jets in the event,
+    %\begin{itemize}
+    %\item at least $1$ of which have $|\eta|<2.4$ and $\Bot$-tagged,
+   % \end{itemize}
+ % \item $\Delta\Phi_{i=1,\ldots,6}\left(j_i,\,\met\right)>1$.
+  %\end{itemize}
+%\item \emph{Resolved, Resolved}
+  %\begin{itemize}
+    %\item Event passes the inclusive selection of Sec.~\ref{subsec:sel_incl_hadronic}.
+  %\end{itemize}
+%\end{enumerate}
+\iffalse To ensure the categories are exclusive, the selections are applied in the order listed above and once the event satisfies the requirments of a particular category, it is no longer considered for subsequent categories.\fi The yields in the categories are shown Table~\ref{tab:toptag_hadronic_yields}.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|r|r|r|}
+\hline
+  Process &\iffalse \multicolumn{1}{|c|}{Boosted, Boosted} & \multicolumn{1}{|c|}{Boosted, Resolved} &\fi \multicolumn{1}{|c|}{Resolved, Resolved} \\
+\hline
+  \Z\To\Lep\Lep           & \iffalse $ 0.02 \pm 0.01$ & $  0.35 \pm 0.09$ &\fi $  0.52 \pm 0.12$ \\
+  \Z\To\Nu\Nu             &\iffalse  $ 4.82 \pm 0.18$ & $ 58.62 \pm 1.23$ &\fi $ 72.37 \pm 1.73$ \\
+  Single \Top             &\iffalse  $ 1.00 \pm 0.41$ & $ 11.42 \pm 1.40$ &\fi $ 15.88 \pm 1.61$ \\
+  \Wjets                  & \iffalse $ 3.55 \pm 0.34$ & $ 36.16 \pm 2.42$ &\fi $ 38.25 \pm 3.01$ \\
+  QCD                     & \iffalse $ 0.00 \pm 0.00$ & $  0.00 \pm 0.00$ &\fi $  0.00 \pm 0.00$ \\
+  $\ttbar+V$              & \iffalse $ 2.61 \pm 0.19$ & $  9.63 \pm 0.37$ &\fi $  5.37 \pm 0.28$ \\
+  $\ttbar(\mbox{had})$ &\iffalse $ 0.00 \pm 0.00$ & $  0.00 \pm 0.00$ &\fi $  0.00 \pm 0.00$ \\
+  $\ttbar(1\Lep)$         & \iffalse $15.85 \pm 1.61$ & $127.64 \pm 4.57$ &\fi $125.35 \pm 4.53$ \\
+  $\ttbar(2\Lep)$         & \iffalse $ 1.14 \pm 1.88$ & $  6.86 \pm 1.06$ & \fi$ 18.47 \pm 1.74$ \\
+\hline
+  SM expected             & \iffalse $29.00 \pm 1.77$ & $250.69 \pm 5.61$ &\fi $276.21 \pm 6.18$ \\
+\hline
+  $M_\chi=1\:\GeV$        & \iffalse $61.86 \pm 1.60$ & $247.29 \pm 3.19$ & \fi$137.42 \pm 2.38$ \\
+\hline
+\end{tabular}
+\caption{Expected yields for $5\:\ifb$ \iffalse in each category \fi after the top-tagged selection for the hadronic channel.\textcolor{red}{Plan to pursue boosted category for Moriond}}
+\label{tab:toptag_hadronic_yields}
+\end{table}

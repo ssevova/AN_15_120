@@ -1,0 +1,172 @@
+\section{Samples}
+\label{sec:datasets}
+
+This analysis is based on the data sample recorded by CMS at the center-of-mass energy $\sqrt{s}=13\:\TeV\:$ during 2015 LHC operation. The dataset corresponds to an integrated luminosity of $1.27\:\ifb\:$. The dataset names are listed in Table~\ref{tab:data}.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Dataset \\
+\hline
+METRun2015D-PromptReco-v3 \\
+METRun2015D-PromptReco-v4 \\
+\hline
+SingleMu2015D-PromptReco-v3 \\
+SingleMu2015D-PromptReco-v4  \\
+\hline
+SingleEle2015D-PromptReco-v3 \\
+SingleEle2015D-PromptReco-v4 \\
+\hline
+Photon2015D-PromptReco-v3   \\
+Photon2015D-PromptReco-v4   \\
+\hline
+\end{tabular}
+\caption{Datasets used in the presented analysis}
+\label{tab:data}
+\end{table}
+
+Monte Carlo (MC) simulation samples used in this study come from the ``Spring15'' production campaign. The simulated beam conditions correspond to $25\,\mbox{ns}$ bunch crossings and 20 pileup interactions on average. For signal samples, both EFT signals and simplified models have been produced. The EFT models were generated with $M_*=1000\:\GeV$ and the various $M_\chi$ points that were produced are listed in Table~\ref{tab:ttdm_samples}. The simplified models were generated for various points ranging in $10\:\GeV\:<M_{\phi}<1\:\TeV\:$ for scalar and pseudo-scalar mediators and DM particles ranging in $1\:\GeV\:< M_{\chi}<150\:\GeV\:$ and are listed in Table~\ref{tab:ttdm_simplified}. Note that for the EFT model cross sections used to normalize the signal samples correspond to $M_*=100\:\GeV$, as this is closer to the limits from Run-1 results and allows better visualization of the signal when plotting.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+  Sample name                                          & $\sigma$ [$\pb$] \\
+\hline
+  /TTDMDMJets\_M1GeV\_Tune4C\_13TeV-madgraph-tauola    & $1.320$ \\
+  /TTDMDMJets\_M10GeV\_Tune4C\_13TeV-madgraph-tauola   & $1.322$ \\
+  /TTDMDMJets\_M50GeV\_Tune4C\_13TeV-madgraph-tauola   & $1.187$ \\
+  /TTDMDMJets\_M100GeV\_Tune4C\_13TeV-madgraph-tauola  & $0.9553$ \\
+  /TTDMDMJets\_M200GeV\_Tune4C\_13TeV-madgraph-tauola  & $0.6301$ \\
+  /TTDMDMJets\_M600GeV\_Tune4C\_13TeV-madgraph-tauola  & $0.1038$ \\
+  /TTDMDMJets\_M1000GeV\_Tune4C\_13TeV-madgraph-tauola & $0.01585$ \\
+\hline
+\end{tabular}
+\caption{EFT signal samples and cross sections. The cross sections correspond to $M_{*}=100\:\GeV$.}
+\label{tab:ttdm_samples}
+\end{table}
+
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Sample name                                    & $\sigma$ [$\pb$]\\
+\hline
+/TTbarDMJets\_pseudoscalar\_Mchi-10\_Mphi-100\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8          & $0.1863543$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-10\_Mphi-10\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8            & $0.0147397$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-150\_Mphi-1000\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      & $0.0003392$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-150\_Mphi-200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.0003856$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-150\_Mphi-500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      & $0.0048655$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-100\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      & $0.1820882$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-10\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &   $0.4689972$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.0877421$ \\ 
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-20\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &    $0.4134034$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-300\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.0389858$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.0047980$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-1\_Mphi-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.3353931$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-50\_Mphi-200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0881722$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-50\_Mphi-300\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0431273$ \\
+/TTbarDMJets\_pseudoscalar\_Mchi-50\_Mphi-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0027793$ \\
+\hline
+/TTbarDMJets\_scalar\_Mchi-10\_Mphi-100\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.7014639$ \\
+/TTbarDMJets\_scalar\_Mchi-150\_Mphi-200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0001263$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-1000\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &  $0.0003497$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-10\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      & $17.896528$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-20\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      & $10.532532$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0048826$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$3.0348248$ \\
+/TTbarDMJets\_scalar\_Mchi-50\_Mphi-300\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0312498$ \\
+/TTbarDMJets\_scalar\_Mchi-50\_Mphi-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.0027578$ \\
+/TTbarDMJets\_scalar\_Mchi-1\_Mphi-100\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.6906371$ \\
+/TTbarDMJets\_scalar\_Mchi-50\_Mphi-200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8      &$0.1109005$\\
+\hline
+\end{tabular}
+\caption{Simplified model signal samples for scalar and pseudo-scalar $M_{\phi}$ and cross sections.}
+\label{tab:ttdm_simplified}
+\end{table}
+
+The MC samples for SM processes and their respective cross section are listed in Table~\ref{tab:mc_samples}. %Note that diboson (\WW, \WZ, \ZZ) samples were not produced in Phys14.
+
+\begin{sidewaystable}
+%\begin{table}[!ht]
+\centering
+\begin{tabular}{|l|l|r|}
+\hline
+  Process & Sample name & $\sigma$ [$\pb$] \\
+\hline
+  \ttbar & Spring15\_a25ns\_TTJets\_madgraph\_MINIAOD & $831.76$ \\
+           & Spring15\_a25ns\_TTJets\_amcatnlo\_MINIAOD   & $831.76$ \\
+\hline
+  \W\To\Lep\Nu & Spring15\_a25ns\_WJetsToLNu\_MINIAOD & $61526.7$ \\
+  			& Spring15\_a25ns\_WJetsToLNu\_HT-100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $1627.450$\\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-200to400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $435.237$\\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-400to600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $ 59.181$\\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-600to800\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $14.581$\\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-800to1200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $6.656$\\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-1200to2500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $1.608$ \\
+			& Spring15\_a25ns\_WJetsToLNu\_HT-2500toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $0.0389$ \\
+%               & /WJetsToLNu\_HT-200to400\_Tune4C\_13TeV-madgraph-tauola & $580.068$ \\
+  %             & /WJetsToLNu\_HT-400to600\_Tune4C\_13TeV-madgraph-tauola & $68.4$ \\
+    %           & /WJetsToLNu\_HT-600toInf\_Tune4C\_13TeV-madgraph-tauola & $23.136$ \\
+\hline
+  \Z\To\Lep\Lep  & Spring15\_a25ns\_DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8\_MINIAOD                & $6025.2$ \\
+  			
+
+  
+  %& /DYJetsToLL\_M-50\_HT-100to200\_Tune4C\_13TeV-madgraph-tauola & $213.536$ \\
+                %& /DYJetsToLL\_M-50\_HT-200to400\_Tune4C\_13TeV-madgraph-tauola & $57.412$ \\
+                %& /DYJetsToLL\_M-50\_HT-400to600\_Tune4C\_13TeV-madgraph-tauola & $7.194$ \\
+                %& /DYJetsToLL\_M-50\_HT-600toInf\_Tune4C\_13TeV-madgraph-tauola & $2.395$ \\
+\hline
+  \Z\To\Nu\Nu & Spring15\_a25ns\_ZJetsToNuNu\_HT-100To200\_13TeV-madgraph\_MINIAOD & $344.978$\\
+			& Spring15\_a25ns\_ZJetsToNuNu\_HT-200To400\_13TeV-madgraph\_MINIAOD & $96.383$\\
+			& Spring15\_a25ns\_ZJetsToNuNu\_HT-400To600\_13TeV-madgraph\_MINIAOD & $13.456$\\
+			& Spring15\_a25ns\_ZJetsToNuNu\_HT-600ToInf\_13TeV-madgraph\_MINIAOD & $5.166$\\
+  		     
+  %& /ZJetsToNuNu\_HT-100to200\_Tune4C\_13TeV-madgraph-tauola & $409.487$ \\
+     %         & /ZJetsToNuNu\_HT-200to400\_Tune4C\_13TeV-madgraph-tauola & $110.779$ \\
+        %      & /ZJetsToNuNu\_HT-400to600\_Tune4C\_13TeV-madgraph-tauola & $13.177$ \\
+           %   & /ZJetsToNuNu\_HT-600toInf\_Tune4C\_13TeV-madgraph-tauola & $4.52$ \\
+\hline
+  Single \Top & Spring15\_a25ns\_ST\_t-channel\_top\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1\_MINIAOD     & $ 136.02 $ \\
+  			& Spring15\_a25ns\_ST\_t-channel\_antitop\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1\_MINIAOD   & $80.95  $ \\
+			& Spring15\_a25ns\_ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1\_MINIAOD	           & $35.6$ \\   
+  			& Spring15\_a25ns\_ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1\_MINIAOD             & $ 35.6$\\
+
+  			
+  % /TToLeptons\_t-channel-CSA14\_Tune4C\_13TeV-aMCatNLO-tauola     & $44.0802$ \\
+            % & /TBarToLeptons\_t-channel\_Tune4C\_CSA14\_13TeV-aMCatNLO-tauola & $26.2343$ \\
+             % & /TToLeptons\_s-channel-CSA14\_Tune4C\_13TeV-aMCatNLO-tauola     & $2.3328$ \\
+             % & /TBarToLeptons\_s-channel-CSA14\_Tune4C\_13TeV-aMCatNLO-tauola  & $1.3478$ \\
+             % & /T\_tW-channel-DR\_Tune4C\_13TeV-CSA14-powheg-tauola            & $35.6$ \\
+             % & /Tbar\_tW-channel-DR\_Tune4C\_13TeV-CSA14-powheg-tauola         & $35.6$ \\ 
+%\hline
+ % \ttbar\W & & $ $\\%& /TTWJets\_Tune4C\_13TeV-madgraph-tauola & $0.72$ \\
+ % \ttbar\Z  & & $ $\\%& /TTZJets\_Tune4C\_13TeV-madgraph-tauola & $0.70$ \\
+\hline
+  Diboson   & Spring15\_a25ns\_WWTo2L2Nu\_13TeV-powheg\_MINIAOD & $12.178$ \\	
+  		 & Spring15\_a25ns\_WWToLNuQQ\_13TeV-powheg\_MINIAOD & $49.997$ \\
+		 & Spring15\_a25ns\_WWTo4Q\_13TeV-powheg\_MINIAOD & $51.723$ \\	
+  		 & Spring15\_a25ns\_WZ\_TuneCUETP8M1\_13TeV-pythia8\_MINIAOD & $ 48.4 $ \\ 
+  		 & Spring15\_a25ns\_ZZ\_TuneCUETP8M1\_13TeV-pythia8\_MINIAOD & $ 19.3 $ \\
+\hline
+QCD &   Spring15\_a25ns\_QCD\_HT100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $2.785\times10^{7}$\\
+         &   Spring15\_a25ns\_QCD\_HT200to300\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $1.717\times10^{6}$\\
+         &   Spring15\_a25ns\_QCD\_HT300to500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $3.513\times10^{5}$\\
+         &   Spring15\_a25ns\_QCD\_HT500to700\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $3.163\times10^{4}$\\
+         &   Spring15\_a25ns\_QCD\_HT700to1000\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $6.802\times10^{3}$ \\
+         &   Spring15\_a25ns\_QCD\_HT1000to1500\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $1.206\times10^{3}$\\
+         &   Spring15\_a25ns\_QCD\_HT1500to2000\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD & $120.4$\\
+         &   Spring15\_a25ns\_QCD\_HT2000toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\_MINIAOD     & $25.24$\\
+  %QCD & /QCD\_HT\_250To500\_13TeV-madgraph (v1 \& ext1-v2)  & $670500$ \\
+     % & /QCD\_HT-500To1000\_13TeV-madgraph (v1 \& ext1-v1)  & $26740$ \\
+     % & /QCD\_HT\_1000ToInf\_13TeV-madgraph (v1 \& ext1-v1) & $769.7$ \\
+\hline
+\end{tabular}
+\caption{MC samples and cross sections for SM processes.}
+\label{tab:mc_samples}
+\end{sidewaystable}
+%\end{table}
+
